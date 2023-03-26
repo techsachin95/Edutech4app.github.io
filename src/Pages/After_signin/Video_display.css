@@ -1,0 +1,47 @@
+.video_display_mdiv{
+    display: flex;justify-content: start;align-items: start;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+
+.video_div2{
+    width: 100%;
+}
+.vtrack_navigate button {
+    background-color: transparent;
+    border: none;font-family: arial;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem;
+}
+.vtrack_navigate {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+}
+.vtrack_navigate button {
+    background-color: transparent;
+    border: none;font-family: arial;
+    font-size: 1rem;
+    font-weight: 500;
+    padding: .5rem;
+}
+.vtrack_navigate .btn .rightarrow{
+    background-color:rgb(99, 76, 230);position: absolute;z-index: 99999;
+    top: 0;left: 0;height: 2.46rem;width: 3rem;
+    box-shadow: 6px 0px 4px  rgb(217, 214, 214);
+}
+.vtrack_bt1 button{
+    color: blue;
+}
+.vtrack_bt2 button{
+    font-size: 1.5rem;font-weight: 1rem;margin-top: .7rem;
+}
+.video_div3{
+    position: absolute;bottom: 0;text-align: center;background-color: #fbc531;
+    width: 100%;padding: .33rem;font-family: arial;
+}

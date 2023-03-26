@@ -1,0 +1,70 @@
+.mdiv {
+    background-color: white;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    transform: translate(-85%);
+    opacity: .96;
+    z-index: 99;
+}
+
+.signin {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%);
+    height: 550px;
+    width: 32%;
+    background-color: white;
+    border-radius: .2rem;
+    box-shadow: .5rem .2rem 1rem rgb(145, 145, 145);
+    padding: 2rem;
+}
+
+.signin h1 {
+    font-family: arial;
+    font-weight: 800;
+    font-size: 1.8rem;
+    margin-bottom: 2.3rem;
+}
+
+.social_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.social_link div {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    padding: .5rem;
+    background-color: black;
+}
+
+.social_link div a {
+    color: white;
+}
+
+div a:hover::after {
+    background-color: black;
+}
+
+span {
+    font-size: 1.1rem;
+    font-family: arial;
+    font-weight: 500;
+    color: lightgray;
+}
+
+span sup {
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
+.signin .btn button{
+    font-size: 1.8rem;position: absolute;cursor: pointer;top: .5rem;right: 1rem;
+}

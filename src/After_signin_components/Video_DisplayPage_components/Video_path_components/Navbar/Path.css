@@ -1,0 +1,36 @@
+.path{
+    width: 30vw;height: 58vh;background-color: rgb(242, 238, 238);padding: 1.5rem;
+    overflow-y: scroll;
+}
+::-webkit-scrollbar{
+    width: 9rem;
+}
+::-webkit-scrollbar-track{
+    color:red;
+}
+.path a:hover::after {
+    background-color: rgb(228, 227, 227);
+}
+.path h1{
+    cursor: pointer;
+}
+.path video{
+    position: relative;top: 0rem;right: 0;
+}
+.path span{
+    color: black;cursor: pointer;font-size: 1rem;font-weight: 700;
+    margin-bottom: 1rem;
+}
+.path span::after:visited{
+    color: orange;
+}
+.path div{
+    width: 100%;height: 2rem;border-left: .5rem solid orange;
+    margin-left: 1.8rem;padding-left: .5rem;margin-bottom: 1.5rem;
+}
+.path div .check{
+    position:sticky;left:21rem;
+}
+.path div span{
+    font-family: arial;font-size: .9rem;
+}

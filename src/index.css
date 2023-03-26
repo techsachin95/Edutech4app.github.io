@@ -1,0 +1,18 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+a{
+    text-decoration: none;color: black;font-family: arial;font-size: 1.3rem;
+}
+a::after{
+    content: "";
+    width: 0;
+    height: .2rem;
+    display: block;
+    transition: .3s;
+    margin: auto;
+}
+a:hover::after{
+    background-color: orangered;
+    width: 100%;
+}

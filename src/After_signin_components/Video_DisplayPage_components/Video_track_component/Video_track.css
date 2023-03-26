@@ -1,0 +1,12 @@
+.video_track {
+padding: 1.5rem;width: 100%;
+}
+
+.video_track h2{
+    font-family: arial;margin-bottom: .5rem;
+}
+
+.video_track progress{
+    width: 85%; color: orange;
+}
+

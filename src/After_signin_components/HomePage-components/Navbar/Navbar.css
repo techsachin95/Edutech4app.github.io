@@ -1,0 +1,24 @@
+
+.after_Signin_Navbar{
+    position: sticky;z-index: 99999;top: 0px;
+    background-color:white;display: flex;justify-content: space-between;align-items: center;
+    width: 100%;height: 2.5rem;gap:rem
+    
+}
+.logo a{
+    font-size: 2rem;font-weight: 750;
+}
+.logo a:hover:after{
+    background-color: white;
+}
+.logo a sup{
+    font-size: 1.5rem;
+}
+.after_Signin_Navbar .links{
+    display: flex;gap: 1rem ;font-family: arial;font-size: 1.2rem;font-weight: 600;
+}
+.links button{
+    background-color: transparent;border: none;font-size: 1.2rem;font-family: arial;
+    font-weight: 600;
+}
+

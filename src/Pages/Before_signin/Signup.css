@@ -1,0 +1,12 @@
+.mdiv{
+    background-color: white;height: 100%;width: 100%;
+    position: absolute;height: 100vh;width: 100%;
+} 
+.signup{
+    position: absolute;top: 10%;left: 50%;transform: translate(-50%);
+    height: 500px;width: 30%;background-color: white;border-radius: .2rem;
+    box-shadow: .5rem .2rem 1rem rgb(145, 145, 145);padding: 1.3rem;
+}
+.signup .btn button{
+    font-size: 1.8rem;position: absolute;cursor: pointer;top: .5rem;left: 3rem;
+}

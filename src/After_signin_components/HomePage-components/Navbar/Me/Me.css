@@ -1,0 +1,12 @@
+.show{
+    position: absolute;top: 5rem;right: 2.5rem;box-shadow: .1rem .8rem .5rem lightgray;
+    text-align: center;z-index: 999999;width: 10%;height:22.4vh;padding: 1rem 0rem 0rem 0rem;
+}
+.show a{
+
+}
+.show button{
+    background-color: transparent;border: none;font-family: arial;font-size: 1.4rem;
+    background-color: rgb(255,198,64);width: 100%;padding: .5rem;
+
+}

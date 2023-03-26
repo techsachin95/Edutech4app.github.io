@@ -1,0 +1,29 @@
+.hero_maindiv{
+    position: absolute;
+    display: flex;justify-content: space-between;align-items: center;
+    gap: 7rem;text-align: start;
+}
+.hero_maindiv .div1{
+    width: 80%;padding: 4rem 0rem 2rem 0rem;
+
+}
+.hero_maindiv h6{
+    color: blue;font-family: arial;font-size: 1rem;
+}
+.hero_maindiv h1{
+    font-family: arial;font-size: 3rem;font-weight: 800;
+}
+.hero_maindiv p{
+    font-family: arial;font-size: 1.5rem;color: rgb(186, 181, 181);margin: 2rem 0rem 2rem 0rem;
+    font-weight: 400;
+}
+.hero_maindiv button{
+    height: 3rem;width: 100%;background-color: #ffc640;color: white;border-radius: .7rem;
+    font-size: 1.2rem;border: none;
+}
+.div1{
+    width: 89.95%;
+}
+    .div2 img{
+        height: 100%;width: 100%;margin-top: 16rem;
+    }
